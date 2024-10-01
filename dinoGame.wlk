@@ -64,7 +64,8 @@ object reloj {
 		game.onTick(100,"tiempo",{self.pasarTiempo()})
 	}
 	method detener(){
-		//COMPLETAR
+		tiempo=0
+		
 	}
 }
 
