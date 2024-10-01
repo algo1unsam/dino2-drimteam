@@ -104,8 +104,9 @@ object dino {
 	method image() = "dino.png"
 	
 	method saltar(){
-		//COMPLETAR
+	
 	}
+	method algo(){}
 	
 	method subir(){
 		position = position.up(1)

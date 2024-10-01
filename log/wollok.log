@@ -625,6 +625,7 @@
 {"level":"info","message":"⌛ Building environment","timeElapsed":243,"timestamp":"2024-10-01T04:08:48.918Z"}
 {"level":"info","message":"onRequest - WORKSPACE_URI:file:///home/leon/Work/ALGO1/2024/Workspace/dino2","timestamp":"2024-10-01T04:08:48.974Z"}
 {"level":"info","message":"Removing diagnostics from /home/leon/Work/ALGO1/2024/Workspace/dino2/testExample.wtest","timestamp":"2024-10-01T04:08:49.020Z"}
+<<<<<<< HEAD
 {"level":"info","message":"⌛ Building environment","timeElapsed":221,"timestamp":"2024-10-01T21:33:26.618Z"}
 {"level":"info","message":"onRequest - WORKSPACE_URI:file:///home/infolab/Descargas/dino2-drimteam","timestamp":"2024-10-01T21:33:26.624Z"}
 {"level":"info","message":"⌛ Building environment","timeElapsed":122,"timestamp":"2024-10-01T21:33:26.748Z"}
@@ -712,3 +713,40 @@
 {"level":"info","message":"⌛ Validating dinoGame.wlk","timeElapsed":152,"timestamp":"2024-10-01T21:42:07.891Z"}
 {"level":"info","message":"⌛ Validating dinoGame.wlk","timeElapsed":122,"timestamp":"2024-10-01T21:42:08.014Z"}
 {"level":"info","message":"⌛ Validating dinoGame.wlk","timeElapsed":116,"timestamp":"2024-10-01T21:42:08.130Z"}
+=======
+{"level":"info","message":"⌛ Building environment","timeElapsed":3350,"timestamp":"2024-10-01T21:36:07.340Z"}
+{"level":"info","message":"onRequest - WORKSPACE_URI:file:///c%3A/Users/Usuario/Desktop/Algoritmos/Ejercicios/dino2-drimteam","timestamp":"2024-10-01T21:36:07.688Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":1699,"timestamp":"2024-10-01T21:36:09.400Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":2012,"timestamp":"2024-10-01T21:36:11.520Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":2928,"timestamp":"2024-10-01T21:36:14.507Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":2954,"timestamp":"2024-10-01T21:36:17.473Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":3032,"timestamp":"2024-10-01T21:36:20.524Z"}
+{"level":"info","message":"⌛ Validating mainExample.wpgm","timeElapsed":3924,"timestamp":"2024-10-01T21:36:24.459Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":1414,"timestamp":"2024-10-01T21:36:25.877Z"}
+{"level":"info","message":"⌛ Validating mainExample.wpgm","timeElapsed":1903,"timestamp":"2024-10-01T21:36:27.922Z"}
+{"level":"info","message":"⌛ Validating mainExample.wpgm","timeElapsed":1866,"timestamp":"2024-10-01T21:36:30.121Z"}
+{"level":"info","message":"⌛ Validating dinoGame.wlk","timeElapsed":4867,"timestamp":"2024-10-01T21:36:34.990Z"}
+{"level":"info","message":"⌛ Validating dino.wtest","timeElapsed":3339,"timestamp":"2024-10-01T21:36:38.745Z"}
+{"level":"info","message":"⌛ Validating mainExample.wpgm","timeElapsed":1956,"timestamp":"2024-10-01T21:36:40.702Z"}
+{"level":"info","message":"⌛ Validating dinoGame.wlk","timeElapsed":1192,"timestamp":"2024-10-01T21:36:41.904Z"}
+{"level":"info","message":"⌛ Validating dino.wtest","timeElapsed":1529,"timestamp":"2024-10-01T21:36:43.435Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":1088,"timestamp":"2024-10-01T21:38:37.281Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":586,"timestamp":"2024-10-01T21:38:37.923Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":1109,"timestamp":"2024-10-01T21:38:39.161Z"}
+{"level":"info","message":"⌛ Validating mainExample.wpgm","timeElapsed":2334,"timestamp":"2024-10-01T21:38:41.646Z"}
+{"level":"info","message":"⌛ Validating mainExample.wpgm","timeElapsed":1049,"timestamp":"2024-10-01T21:38:42.721Z"}
+{"level":"info","message":"⌛ Validating mainExample.wpgm","timeElapsed":703,"timestamp":"2024-10-01T21:38:43.431Z"}
+>>>>>>> 1780d949f32a1036a36660205c92d2befc118b78
+{"level":"info","message":"🚀 Program executed mainExample.DinoGame on /home/infolab/Descargas/dino2-drimteam","ok":true,"timeElapsed":606,"timestamp":"2024-10-01T21:47:56.817Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":215,"timestamp":"2024-10-01T21:48:22.606Z"}
+{"level":"info","message":"onRequest - WORKSPACE_URI:file:///home/infolab/Descargas/dino2-drimteam","timestamp":"2024-10-01T21:48:22.616Z"}
+{"level":"info","message":"⌛ Validating mainExample.wpgm","timeElapsed":182,"timestamp":"2024-10-01T21:48:22.900Z"}
+{"level":"info","message":"⌛ Validating mainExample.wpgm","timeElapsed":142,"timestamp":"2024-10-01T21:48:23.131Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":313,"timestamp":"2024-10-01T21:48:25.421Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":248,"timestamp":"2024-10-01T21:48:25.680Z"}
+{"level":"info","message":"⌛ Validating dino.wtest","timeElapsed":199,"timestamp":"2024-10-01T21:48:25.885Z"}
+{"level":"info","message":"⌛ Validating dinoGame.wlk","timeElapsed":144,"timestamp":"2024-10-01T21:48:26.030Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":176,"timestamp":"2024-10-01T21:48:26.208Z"}
+{"level":"info","message":"⌛ Validating mainExample.wpgm","timeElapsed":191,"timestamp":"2024-10-01T21:48:26.400Z"}
+{"level":"info","message":"⌛ Validating dino.wtest","timeElapsed":180,"timestamp":"2024-10-01T21:48:26.581Z"}
+{"level":"info","message":"⌛ Validating dinoGame.wlk","timeElapsed":159,"timestamp":"2024-10-01T21:48:26.742Z"}
