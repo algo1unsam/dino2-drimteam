@@ -55,14 +55,16 @@ object reloj {
 	method position() = game.at(1, game.height()-1)
 	
 	method pasarTiempo() {
-		//COMPLETAR
+		 tiempo= tiempo + 1
+		
 	}
 	method iniciar(){
 		tiempo = 0
 		game.onTick(100,"tiempo",{self.pasarTiempo()})
 	}
 	method detener(){
-		//COMPLETAR
+		tiempo=0
+		
 	}
 }
 
@@ -112,6 +114,7 @@ object dino {
 	method algo(){
 
 	}
+	
 	
 	method subir(){
 
