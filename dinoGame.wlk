@@ -113,10 +113,7 @@ object dino {
 	method algo(){
 
 	}
-<<<<<<< HEAD
 	
-=======
->>>>>>> d9c223bae2a0d4b52aabd3b4d7584d9b6f564b99
 	
 	method subir(){
 		position = position.up(1)
