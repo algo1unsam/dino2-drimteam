@@ -55,14 +55,16 @@ object reloj {
 	method position() = game.at(1, game.height()-1)
 	
 	method pasarTiempo() {
-		//COMPLETAR 
+		 tiempo= tiempo + 1
+		
 	}
 	method iniciar(){
 		tiempo = 0
 		game.onTick(100,"tiempo",{self.pasarTiempo()})
 	}
 	method detener(){
-		//COMPLETAR
+		tiempo=0
+		
 	}
 }
 
@@ -91,7 +93,6 @@ object cactus {
 }
 
 object suelo{
-
 	method position() = game.origin().up(1)
 	method image() = "suelo.png"
 }
@@ -104,7 +105,9 @@ object dino {
 	method image() = "dino.png"
 	
 	method saltar(){
-		self.subir()
+		if(self.position() == game.at(1,1)){
+			self.subir()
+		}
 		
 	}
 
@@ -112,9 +115,11 @@ object dino {
 
 	}
 	
+	
 	method subir(){
+
 		position = position.up(1)
-		game.schedule(1000, {self.bajar()})
+		game.schedule(600, {self.bajar()})
 	}
 	
 	method bajar(){
@@ -130,5 +135,6 @@ object dino {
 	method estaVivo() {
 		return vivo
 	}
+
 
 }
