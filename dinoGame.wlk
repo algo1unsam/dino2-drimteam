@@ -16,7 +16,6 @@ object juego{
 	
 		keyboard.space().onPressDo{ self.jugar()}
 		game.onCollideDo(dino,{ obstaculo => obstaculo.chocar()})
-		
 	} 
 	
 	method iniciar(){
@@ -104,12 +103,17 @@ object dino {
 	method image() = "dino.png"
 	
 	method saltar(){
-	
+		self.subir()
+		
 	}
-	method algo(){}
+
+	method algo(){
+
+	}
 	
 	method subir(){
 		position = position.up(1)
+		game.schedule(1000, {self.bajar()})
 	}
 	
 	method bajar(){
@@ -125,4 +129,5 @@ object dino {
 	method estaVivo() {
 		return vivo
 	}
+
 }
