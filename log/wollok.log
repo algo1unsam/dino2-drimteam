@@ -2279,3 +2279,22 @@
 {"level":"info","message":"⌛ Validating dinoGame.wlk","timeElapsed":139,"timestamp":"2024-10-01T23:19:58.659Z"}
 {"level":"info","message":"⌛ Validating dino.wtest","timeElapsed":103,"timestamp":"2024-10-01T23:19:58.762Z"}
 {"level":"info","message":"⌛ Validating mainExample.wpgm","timeElapsed":113,"timestamp":"2024-10-01T23:19:58.876Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":173,"timestamp":"2024-10-01T23:34:15.922Z"}
+{"level":"info","message":"⌛ Validating mainExample.wpgm","timeElapsed":205,"timestamp":"2024-10-01T23:34:16.139Z"}
+{"exitCode":"SIGHUP","level":"info","message":"👾 Game executed mainExample.DinoGame on /home/infolab/Descargas/dino2-drimteam","timeElapsed":56120,"timestamp":"2024-10-01T23:35:14.763Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":165,"timestamp":"2024-10-01T23:35:25.355Z"}
+{"level":"info","message":"⌛ Validating dino.wtest","timeElapsed":265,"timestamp":"2024-10-01T23:35:25.636Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":247,"timestamp":"2024-10-01T23:35:48.202Z"}
+{"level":"info","message":"onRequest - WORKSPACE_URI:file:///home/infolab/Descargas/dino2-drimteam","timestamp":"2024-10-01T23:35:48.213Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":146,"timestamp":"2024-10-01T23:35:48.361Z"}
+{"level":"info","message":"⌛ Validating dinoGame.wlk","timeElapsed":190,"timestamp":"2024-10-01T23:35:48.560Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":133,"timestamp":"2024-10-01T23:35:48.694Z"}
+{"level":"info","message":"⌛ Validating dinoGame.wlk","timeElapsed":162,"timestamp":"2024-10-01T23:35:48.860Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":219,"timestamp":"2024-10-01T23:35:50.819Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":152,"timestamp":"2024-10-01T23:35:50.980Z"}
+{"level":"info","message":"⌛ Validating dino.wtest","timeElapsed":257,"timestamp":"2024-10-01T23:35:51.238Z"}
+{"level":"info","message":"⌛ Validating mainExample.wpgm","timeElapsed":174,"timestamp":"2024-10-01T23:35:51.416Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":134,"timestamp":"2024-10-01T23:35:51.550Z"}
+{"level":"info","message":"⌛ Validating dinoGame.wlk","timeElapsed":237,"timestamp":"2024-10-01T23:35:51.790Z"}
+{"level":"info","message":"⌛ Validating dino.wtest","timeElapsed":139,"timestamp":"2024-10-01T23:35:51.929Z"}
+{"level":"info","message":"⌛ Validating mainExample.wpgm","timeElapsed":132,"timestamp":"2024-10-01T23:35:52.061Z"}
