@@ -79,14 +79,15 @@ object cactus {
 	}
 	
 	method mover(){
-		// ha completar
+		position = position.left(1)
 	}
 	
 	method chocar(){
-		//COMPLETAR
+		game.stop()
 	}
+
     method detener(){
-		//COMPLETAR
+		
 	}
 }
 
