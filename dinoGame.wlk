@@ -79,8 +79,11 @@ object cactus {
 	}
 	
 	method mover(){
-		position = position.left(1)
+		//position = position.left(1)
 		// if para saber posicion y si pasa al dino game.set a la derecha de nuevo
+		if(self.position()== game.at(0,1)){
+			position = game.at(game.width()-1,suelo.position().y())
+		}else position = position.left(1)
 	}
 	
 	method chocar(){
