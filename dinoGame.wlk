@@ -91,7 +91,6 @@ object cactus {
 }
 
 object suelo{
-
 	method position() = game.origin().up(1)
 	method image() = "suelo.png"
 }
@@ -104,7 +103,9 @@ object dino {
 	method image() = "dino.png"
 	
 	method saltar(){
-		self.subir()
+		if(self.altura() == 1){
+			self.subir()
+		}
 		
 	}
 
@@ -113,8 +114,9 @@ object dino {
 	}
 	
 	method subir(){
+
 		position = position.up(1)
-		game.schedule(1000, {self.bajar()})
+		game.schedule(600, {self.bajar()})
 	}
 	
 	method bajar(){
@@ -130,5 +132,7 @@ object dino {
 	method estaVivo() {
 		return vivo
 	}
+
+	method altura() = position.at(2,3).y()
 
 }
