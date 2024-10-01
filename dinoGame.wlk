@@ -56,7 +56,7 @@ object reloj {
 	method position() = game.at(1, game.height()-1)
 	
 	method pasarTiempo() {
-		//COMPLETAR
+		//COMPLETAR 
 	}
 	method iniciar(){
 		tiempo = 0
@@ -69,17 +69,17 @@ object reloj {
 
 object cactus {
 	var property position = self.posicionInicial()
-	var property vel = 1
 	method image() = "cactus.png"
 	method posicionInicial() = game.at(game.width()-1,suelo.position().y())
 
 	method iniciar(){
 		position = self.posicionInicial()
-		game.onTick(velocidad,"moverCactus",{self.mover(vel)})
+		game.onTick(100,"moverCactus",{self.mover()})
 	}
 	
-	method mover(velocidad){
-		position = position.left(velocidad)
+	method mover(){
+		position = position.left(1)
+		// if para saber posicion y si pasa al dino game.set a la derecha de nuevo
 	}
 	
 	method chocar(){
@@ -87,7 +87,7 @@ object cactus {
 	}
 
     method detener(){
-		self.vel(0)
+		
 	}
 }
 
