@@ -79,7 +79,7 @@ object cactus {
 	}
 	
 	method mover(){
-		//COMPLETAR
+		// ha completar
 	}
 	
 	method chocar(){
