@@ -75,7 +75,7 @@ object cactus {
 
 	method iniciar(){
 		position = self.posicionInicial()
-		game.onTick(100,"moverCactus",{self.mover()})
+		game.onTick(velocidad,"moverCactus",{self.mover()})
 	}
 	
 	method mover(){
@@ -88,7 +88,7 @@ object cactus {
 	}
 
     method detener(){
-		
+		game.removeTickEvent("moverCactus")
 	}
 }
 
