@@ -69,25 +69,25 @@ object reloj {
 
 object cactus {
 	var property position = self.posicionInicial()
-
+	var property vel = 1
 	method image() = "cactus.png"
 	method posicionInicial() = game.at(game.width()-1,suelo.position().y())
 
 	method iniciar(){
 		position = self.posicionInicial()
-		game.onTick(velocidad,"moverCactus",{self.mover()})
+		game.onTick(velocidad,"moverCactus",{self.mover(vel)})
 	}
 	
-	method mover(){
-		position = position.left(1)
+	method mover(velocidad){
+		position = position.left(velocidad)
 	}
 	
 	method chocar(){
-		game.stop()
+		juego.terminar()
 	}
 
     method detener(){
-		
+		self.vel(0)
 	}
 }
 
