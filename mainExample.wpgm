@@ -6,5 +6,5 @@ program DinoGame {
 	juego.iniciar()
 	game.showAttributes(dino) //Debug
 	game.start()
-	
+
 }
