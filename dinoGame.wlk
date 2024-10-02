@@ -70,17 +70,20 @@ object reloj {
 
 object cactus {
 	var property position = self.posicionInicial()
-	var property vel = 1
 	method image() = "cactus.png"
 	method posicionInicial() = game.at(game.width()-1,suelo.position().y())
 
 	method iniciar(){
 		position = self.posicionInicial()
-		game.onTick(velocidad,"moverCactus",{self.mover(vel)})
+		game.onTick(velocidad,"moverCactus",{self.mover()})
 	}
 	
-	method mover(velocidad){
-		position = position.left(velocidad)
+	method mover(){
+		//position = position.left(1)
+		// if para saber posicion y si pasa al dino game.set a la derecha de nuevo
+		if(self.position()== game.at(0,1)){
+			position = game.at(game.width()-1,suelo.position().y())
+		}else position = position.left(1)
 	}
 	
 	method chocar(){
@@ -88,12 +91,11 @@ object cactus {
 	}
 
     method detener(){
-		self.vel(0)
+		game.removeTickEvent("moverCactus")
 	}
 }
 
 object suelo{
-
 	method position() = game.origin().up(1)
 	method image() = "suelo.png"
 }
@@ -106,7 +108,9 @@ object dino {
 	method image() = "dino.png"
 	
 	method saltar(){
-		self.subir()
+		if(self.position() == game.at(1,1)){
+			self.subir()
+		}
 		
 	}
 
@@ -116,8 +120,9 @@ object dino {
 	
 	
 	method subir(){
+
 		position = position.up(1)
-		game.schedule(1000, {self.bajar()})
+		game.schedule(600, {self.bajar()})
 	}
 	
 	method bajar(){
@@ -133,5 +138,6 @@ object dino {
 	method estaVivo() {
 		return vivo
 	}
+
 
 }

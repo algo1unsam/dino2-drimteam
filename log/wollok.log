@@ -1943,6 +1943,7 @@
 {"level":"info","message":"⌛ Building environment","timeElapsed":104,"timestamp":"2024-10-01T22:30:16.318Z"}
 {"level":"info","message":"⌛ Validating dinoGame.wlk","timeElapsed":118,"timestamp":"2024-10-01T22:30:16.437Z"}
 {"exitCode":"SIGHUP","level":"info","message":"👾 Game executed mainExample.DinoGame on /home/infolab/Descargas/dino2-drimteam","timeElapsed":13964,"timestamp":"2024-10-01T22:30:56.617Z"}
+<<<<<<< HEAD
 >>>>>>> 3db30007eb019775aa6ab7606649ad33c201fa1b
 {"level":"info","message":"⌛ Building environment","timeElapsed":1436,"timestamp":"2024-10-02T19:47:47.277Z"}
 {"level":"error","message":"✘ Failed to rebuild document Missing workspace folder!","stack":"Error: Missing workspace folder!\n    at DL (c:\\Users\\Pamela-PC\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.3.5\\out\\server\\src\\server.js:2288:2250)\n    at b3.invoke (c:\\Users\\Pamela-PC\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.3.5\\out\\server\\src\\server.js:3:157188)\n    at o.fire (c:\\Users\\Pamela-PC\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.3.5\\out\\server\\src\\server.js:3:157958)\n    at c:\\Users\\Pamela-PC\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.3.5\\out\\server\\src\\server.js:37:57488\n    at Br (c:\\Users\\Pamela-PC\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.3.5\\out\\server\\src\\server.js:8:1561)\n    at Pt (c:\\Users\\Pamela-PC\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.3.5\\out\\server\\src\\server.js:7:6224)\n    at Gi (c:\\Users\\Pamela-PC\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.3.5\\out\\server\\src\\server.js:7:6378)\n    at Immediate._onImmediate (c:\\Users\\Pamela-PC\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.3.5\\out\\server\\src\\server.js:7:6142)\n    at process.processImmediate (node:internal/timers:476:21)","timestamp":"2024-10-02T19:47:47.394Z"}
@@ -1992,3 +1993,13 @@
 {"level":"info","message":"⌛ Validating mainExample.wpgm","timeElapsed":273,"timestamp":"2024-10-02T19:57:38.252Z"}
 {"level":"info","message":"⌛ Validating dinoGame.wlk","timeElapsed":485,"timestamp":"2024-10-02T19:57:38.794Z"}
 {"level":"info","message":"⌛ Validating dino.wtest","timeElapsed":346,"timestamp":"2024-10-02T19:57:39.152Z"}
+=======
+{"exitCode":"SIGHUP","level":"info","message":"👾 Game executed mainExample.DinoGame on /home/infolab/Descargas/dino2-drimteam","timeElapsed":14185,"timestamp":"2024-10-01T23:39:46.676Z"}
+{"exitCode":"SIGHUP","level":"info","message":"👾 Game executed mainExample.DinoGame on /home/infolab/Descargas/dino2-drimteam","timeElapsed":7431,"timestamp":"2024-10-01T23:39:56.537Z"}
+{"exitCode":"SIGHUP","level":"info","message":"👾 Game executed mainExample.DinoGame on /home/infolab/Descargas/dino2-drimteam","timeElapsed":16696,"timestamp":"2024-10-01T23:40:54.288Z"}
+{"exitCode":"SIGHUP","level":"info","message":"👾 Game executed mainExample.DinoGame on /home/infolab/Descargas/dino2-drimteam","timeElapsed":13948,"timestamp":"2024-10-01T23:42:34.971Z"}
+{"exitCode":"SIGHUP","level":"info","message":"👾 Game executed mainExample.DinoGame on /home/infolab/Descargas/dino2-drimteam","timeElapsed":29806,"timestamp":"2024-10-01T23:43:43.401Z"}
+{"exitCode":"SIGHUP","level":"info","message":"👾 Game executed mainExample.DinoGame on /home/infolab/Descargas/dino2-drimteam","timeElapsed":24000,"timestamp":"2024-10-01T23:47:28.266Z"}
+{"exitCode":"SIGHUP","level":"info","message":"👾 Game executed mainExample.DinoGame on /home/infolab/Descargas/dino2-drimteam","timeElapsed":31927,"timestamp":"2024-10-01T23:49:39.369Z"}
+{"exitCode":"SIGHUP","level":"info","message":"👾 Game executed mainExample.DinoGame on /home/infolab/Descargas/dino2-drimteam","timeElapsed":31119,"timestamp":"2024-10-01T23:54:51.519Z"}
+>>>>>>> 59a34a71442f2c38c936e6051db8e8ffa095e3b7
