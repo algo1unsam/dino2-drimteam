@@ -2003,3 +2003,4 @@
 {"exitCode":"SIGHUP","level":"info","message":"👾 Game executed mainExample.DinoGame on /home/infolab/Descargas/dino2-drimteam","timeElapsed":31927,"timestamp":"2024-10-01T23:49:39.369Z"}
 {"exitCode":"SIGHUP","level":"info","message":"👾 Game executed mainExample.DinoGame on /home/infolab/Descargas/dino2-drimteam","timeElapsed":31119,"timestamp":"2024-10-01T23:54:51.519Z"}
 >>>>>>> 59a34a71442f2c38c936e6051db8e8ffa095e3b7
+{"failures":[],"level":"info","message":"🧪 Test runner executed on c:\\Users\\Pamela-PC\\Desktop\\dinoteam\\dino2-drimteam","result":{"failed":0,"ok":1},"timeElapsed":1321,"timestamp":"2024-10-02T21:23:31.055Z"}

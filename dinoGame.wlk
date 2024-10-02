@@ -51,11 +51,11 @@ object gameOver {
 object reloj {
 	var property tiempo = 0 
 	method text() = tiempo.toString()
-  //method textColor() = "00FF00FF"
+    method textColor() = "00FF00FF"
 	method position() = game.at(1, game.height()-1)
 	
-	method pasarTiempo() {
-		 tiempo= tiempo + 1
+	method pasarTiempo() {tiempo=tiempo + 1
+		
 		
 	}
 	method iniciar(){
@@ -64,7 +64,8 @@ object reloj {
 	}
 	method detener(){
 		tiempo=0
-		
+		 game.removeTickEvent("tiempo") 
+		 self.textColor()
 	}
 }
 
@@ -114,10 +115,6 @@ object dino {
 		
 	}
 
-	method algo(){
-
-	}
-	
 	
 	method subir(){
 
