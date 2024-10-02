@@ -1987,3 +1987,8 @@
 {"level":"info","message":"⌛ Validating mainExample.wpgm","timeElapsed":587,"timestamp":"2024-10-02T19:56:49.370Z"}
 {"level":"info","message":"⌛ Validating dinoGame.wlk","timeElapsed":384,"timestamp":"2024-10-02T19:56:49.769Z"}
 {"level":"info","message":"⌛ Validating dino.wtest","timeElapsed":328,"timestamp":"2024-10-02T19:56:50.128Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":490,"timestamp":"2024-10-02T19:57:37.966Z"}
+{"level":"info","message":"⌛ Inferring types","timeElapsed":1201,"timestamp":"2024-10-02T19:57:37.971Z"}
+{"level":"info","message":"⌛ Validating mainExample.wpgm","timeElapsed":273,"timestamp":"2024-10-02T19:57:38.252Z"}
+{"level":"info","message":"⌛ Validating dinoGame.wlk","timeElapsed":485,"timestamp":"2024-10-02T19:57:38.794Z"}
+{"level":"info","message":"⌛ Validating dino.wtest","timeElapsed":346,"timestamp":"2024-10-02T19:57:39.152Z"}
