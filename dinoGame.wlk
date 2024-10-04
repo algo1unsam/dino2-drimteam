@@ -63,7 +63,7 @@ object reloj {
 		game.onTick(100,"tiempo",{self.pasarTiempo()})
 	}
 	method detener(){
-		tiempo=0
+		
 		 game.removeTickEvent("tiempo") 
 		 self.textColor()
 	}
