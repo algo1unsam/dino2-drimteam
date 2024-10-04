@@ -2004,3 +2004,60 @@
 {"exitCode":"SIGHUP","level":"info","message":"👾 Game executed mainExample.DinoGame on /home/infolab/Descargas/dino2-drimteam","timeElapsed":31119,"timestamp":"2024-10-01T23:54:51.519Z"}
 >>>>>>> 59a34a71442f2c38c936e6051db8e8ffa095e3b7
 {"failures":[],"level":"info","message":"🧪 Test runner executed on c:\\Users\\Pamela-PC\\Desktop\\dinoteam\\dino2-drimteam","result":{"failed":0,"ok":1},"timeElapsed":1321,"timestamp":"2024-10-02T21:23:31.055Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":670,"timestamp":"2024-10-03T23:07:00.220Z"}
+{"level":"info","message":"onRequest - WORKSPACE_URI:file:///c%3A/Users/Pamela-PC/Desktop/dinoteam/dino2-drimteam","timestamp":"2024-10-03T23:07:00.234Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":560,"timestamp":"2024-10-03T23:07:00.805Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":255,"timestamp":"2024-10-03T23:07:01.118Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":428,"timestamp":"2024-10-03T23:07:01.628Z"}
+{"level":"info","message":"⌛ Validating dinoGame.wlk","timeElapsed":479,"timestamp":"2024-10-03T23:07:02.124Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":537,"timestamp":"2024-10-03T23:07:09.870Z"}
+{"level":"info","message":"⌛ Inferring types","timeElapsed":7207,"timestamp":"2024-10-03T23:07:09.872Z"}
+{"level":"info","message":"⌛ Validating mainExample.wpgm","timeElapsed":422,"timestamp":"2024-10-03T23:07:10.310Z"}
+{"level":"info","message":"⌛ Validating dino.wtest","timeElapsed":336,"timestamp":"2024-10-03T23:07:10.647Z"}
+{"level":"info","message":"⌛ Validating dinoGame.wlk","timeElapsed":785,"timestamp":"2024-10-03T23:07:11.443Z"}
+{"level":"info","message":"⌛ Validating mainExample.wpgm","timeElapsed":538,"timestamp":"2024-10-03T23:07:11.992Z"}
+{"level":"info","message":"⌛ Validating dino.wtest","timeElapsed":327,"timestamp":"2024-10-03T23:07:12.321Z"}
+{"exitCode":"SIGHUP","level":"info","message":"👾 Game executed mainExample.DinoGame on c:\\Users\\Pamela-PC\\Desktop\\dinoteam\\dino2-drimteam","timeElapsed":218198,"timestamp":"2024-10-03T23:13:27.084Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":1377,"timestamp":"2024-10-04T00:08:46.925Z"}
+{"level":"info","message":"onRequest - WORKSPACE_URI:file:///c%3A/Users/Pamela-PC/Desktop/dinoteam/dino2-drimteam","timestamp":"2024-10-04T00:08:46.951Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":1426,"timestamp":"2024-10-04T00:08:48.380Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":1244,"timestamp":"2024-10-04T00:08:49.633Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":1460,"timestamp":"2024-10-04T00:08:51.105Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":846,"timestamp":"2024-10-04T00:08:51.955Z"}
+{"level":"info","message":"⌛ Validating dinoGame.wlk","timeElapsed":2499,"timestamp":"2024-10-04T00:08:54.614Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":1104,"timestamp":"2024-10-04T00:09:05.665Z"}
+{"level":"info","message":"⌛ Inferring types","timeElapsed":9936,"timestamp":"2024-10-04T00:09:05.666Z"}
+{"level":"info","message":"⌛ Validating dinoGame.wlk","timeElapsed":451,"timestamp":"2024-10-04T00:09:06.263Z"}
+{"level":"info","message":"⌛ Validating mainExample.wpgm","timeElapsed":294,"timestamp":"2024-10-04T00:09:06.606Z"}
+{"level":"info","message":"⌛ Validating dino.wtest","timeElapsed":250,"timestamp":"2024-10-04T00:09:06.889Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":246,"timestamp":"2024-10-04T00:09:10.553Z"}
+{"level":"info","message":"⌛ Inferring types","timeElapsed":3406,"timestamp":"2024-10-04T00:09:10.572Z"}
+{"level":"info","message":"⌛ Validating dinoGame.wlk","timeElapsed":448,"timestamp":"2024-10-04T00:09:11.333Z"}
+{"level":"info","message":"⌛ Validating mainExample.wpgm","timeElapsed":351,"timestamp":"2024-10-04T00:09:11.685Z"}
+{"level":"info","message":"⌛ Validating dino.wtest","timeElapsed":250,"timestamp":"2024-10-04T00:09:11.938Z"}
+{"level":"info","message":"⌛ Validating dinoGame.wlk","timeElapsed":267,"timestamp":"2024-10-04T00:09:12.206Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":666,"timestamp":"2024-10-04T00:12:43.809Z"}
+{"level":"info","message":"⌛ Inferring types","timeElapsed":3837,"timestamp":"2024-10-04T00:12:43.820Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":1019,"timestamp":"2024-10-04T00:12:52.137Z"}
+{"level":"info","message":"⌛ Inferring types","timeElapsed":7147,"timestamp":"2024-10-04T00:12:52.139Z"}
+{"level":"info","message":"⌛ Validating dinoGame.wlk","timeElapsed":495,"timestamp":"2024-10-04T00:12:52.661Z"}
+{"level":"error","message":"✘ Failed to get type description: Error: No type variable for node [Import]{bdb40f} at mainExample.wpgm:2 No type variable for node [Import]{bdb40f} at mainExample.wpgm:2","stack":"Error: No type variable for node [Import]{bdb40f} at mainExample.wpgm:2\n    at h6.getType (c:\\Users\\Pamela-PC\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.3.5\\out\\server\\src\\server.js:2244:8410)\n    at get type [as type] (c:\\Users\\Pamela-PC\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.3.5\\out\\server\\src\\server.js:38:12250)\n    at c:\\Users\\Pamela-PC\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.3.5\\out\\server\\src\\server.js:2275:790\n    at c:\\Users\\Pamela-PC\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.3.5\\out\\server\\src\\server.js:2288:3774\n    at c:\\Users\\Pamela-PC\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.3.5\\out\\server\\src\\server.js:37:74770\n    at Fe (c:\\Users\\Pamela-PC\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.3.5\\out\\server\\src\\server.js:7:8527)\n    at Pt (c:\\Users\\Pamela-PC\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.3.5\\out\\server\\src\\server.js:7:6189)\n    at Gi (c:\\Users\\Pamela-PC\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.3.5\\out\\server\\src\\server.js:7:6378)\n    at Immediate._onImmediate (c:\\Users\\Pamela-PC\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.3.5\\out\\server\\src\\server.js:7:6142)\n    at process.processImmediate (node:internal/timers:476:21)","timestamp":"2024-10-04T00:12:52.913Z"}
+{"level":"info","message":"⌛ Validating dinoGame.wlk","timeElapsed":650,"timestamp":"2024-10-04T00:12:53.567Z"}
+{"level":"error","message":"✘ Failed to get type description: Error: No type variable for node mainExample.DinoGame [Program]{30c709} at mainExample.wpgm:4 No type variable for node mainExample.DinoGame [Program]{30c709} at mainExample.wpgm:4","stack":"Error: No type variable for node mainExample.DinoGame [Program]{30c709} at mainExample.wpgm:4\n    at h6.getType (c:\\Users\\Pamela-PC\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.3.5\\out\\server\\src\\server.js:2244:8410)\n    at get type [as type] (c:\\Users\\Pamela-PC\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.3.5\\out\\server\\src\\server.js:38:12250)\n    at c:\\Users\\Pamela-PC\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.3.5\\out\\server\\src\\server.js:2275:790\n    at c:\\Users\\Pamela-PC\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.3.5\\out\\server\\src\\server.js:2288:3774\n    at c:\\Users\\Pamela-PC\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.3.5\\out\\server\\src\\server.js:37:74770\n    at Fe (c:\\Users\\Pamela-PC\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.3.5\\out\\server\\src\\server.js:7:8527)\n    at Pt (c:\\Users\\Pamela-PC\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.3.5\\out\\server\\src\\server.js:7:6189)\n    at Gi (c:\\Users\\Pamela-PC\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.3.5\\out\\server\\src\\server.js:7:6378)\n    at Immediate._onImmediate (c:\\Users\\Pamela-PC\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.3.5\\out\\server\\src\\server.js:7:6142)\n    at process.processImmediate (node:internal/timers:476:21)","timestamp":"2024-10-04T00:12:55.609Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":642,"timestamp":"2024-10-04T00:14:17.185Z"}
+{"level":"info","message":"⌛ Inferring types","timeElapsed":5320,"timestamp":"2024-10-04T00:14:17.187Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":918,"timestamp":"2024-10-04T00:14:23.168Z"}
+{"level":"info","message":"⌛ Inferring types","timeElapsed":4982,"timestamp":"2024-10-04T00:14:23.169Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":434,"timestamp":"2024-10-04T00:14:27.313Z"}
+{"level":"info","message":"⌛ Inferring types","timeElapsed":3680,"timestamp":"2024-10-04T00:14:27.315Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":564,"timestamp":"2024-10-04T00:14:31.260Z"}
+{"level":"info","message":"⌛ Inferring types","timeElapsed":3289,"timestamp":"2024-10-04T00:14:31.262Z"}
+{"level":"info","message":"⌛ Validating dinoGame.wlk","timeElapsed":442,"timestamp":"2024-10-04T00:14:31.713Z"}
+{"level":"info","message":"⌛ Validating dinoGame.wlk","timeElapsed":354,"timestamp":"2024-10-04T00:14:32.071Z"}
+{"level":"info","message":"⌛ Validating dinoGame.wlk","timeElapsed":396,"timestamp":"2024-10-04T00:14:32.530Z"}
+{"level":"info","message":"⌛ Validating dinoGame.wlk","timeElapsed":338,"timestamp":"2024-10-04T00:14:32.869Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":669,"timestamp":"2024-10-04T00:15:16.557Z"}
+{"level":"info","message":"⌛ Inferring types","timeElapsed":4896,"timestamp":"2024-10-04T00:15:16.559Z"}
+{"level":"info","message":"⌛ Validating dinoGame.wlk","timeElapsed":722,"timestamp":"2024-10-04T00:15:17.444Z"}
+{"level":"info","message":"⌛ Validating mainExample.wpgm","timeElapsed":670,"timestamp":"2024-10-04T00:15:18.119Z"}
+{"level":"info","message":"⌛ Validating dino.wtest","timeElapsed":429,"timestamp":"2024-10-04T00:15:18.550Z"}
